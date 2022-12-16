@@ -1,0 +1,27 @@
+div {border: solid;}
+.parent {
+    display: grid;
+    grid-template-areas: 
+   "titre titre titre"
+   "photo photo photo"
+   "info info contact"
+   "adresse adresse contact";
+    grid-template-columns:  33.3% 33.3% 33.3%; 
+    grid-template-rows: 100px 400px 200px 200px;
+}
+
+.titre {
+    grid-area: titre;
+}
+.photo {
+    grid-area: photo;
+}
+.info {
+    grid-area: info;
+}
+.adresse {
+    grid-area: adresse;
+}
+.contact {
+    grid-area: contact;
+}
